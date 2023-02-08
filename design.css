@@ -34,7 +34,13 @@
   }
 
 .HomePage{
-  padding: 15px 15px;
+  padding: 15px 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.HomePage div {
+  margin: 0 20px;
 }
 
 .homeText{
@@ -43,8 +49,16 @@
   text-align: center;
   float: center;
   width: 60%;
+  font-size: xx-large;
+  height: 300px;
 }
 
 .homeImage{
   float: right;
 }
+
+.socialMedia{
+  float: right;
+  padding: 15px 15px;
+}
+
