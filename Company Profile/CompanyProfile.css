@@ -32,13 +32,23 @@
   }
 
   .ProfileImage {
-    height: 200px;
+    height: 300px;
     float: right;
     margin-left: 15px;
     border: 5px outset rgb(0, 0, 0);
   }
 
-  .ProfileText {
+  .ProfileText1 {
+    border: 5px outset rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    float: center;
+    width: 60%;
+    font-size: x-large;
+    height: 300px;
+  }
+
+  .ProfileText2 {
     border: 5px outset rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     text-align: center;
