@@ -45,7 +45,7 @@
     float: center;
     width: 60%;
     font-size: x-large;
-    height: 300px;
+    height: auto;
   }
 
   .ProfileText2 {
@@ -55,5 +55,4 @@
     float: center;
     width: 60%;
     font-size: x-large;
-    height: 300px;
-  }
+    }

@@ -29,7 +29,7 @@
   float: center;
   width: 60%;
   font-size: x-large;
-  height: 300px;
+  height: auto;
 }
 
 .Specifications {
@@ -39,7 +39,7 @@
   float: center;
   width: 60%;
   font-size: x-large;
-  height: 300px;
+  height: auto;
 }
 
 .Jobs {
