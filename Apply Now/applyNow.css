@@ -26,4 +26,7 @@
     border: 5px outset rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     width: 60%;
+    float: center;
+    margin: 15px;
+    padding: 15px;
   }
