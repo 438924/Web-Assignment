@@ -21,3 +21,29 @@
   .homeImage{
     float: right;
   }
+
+  @media(max-width: 600px){
+    .HomePage{
+      padding: 15px 100px;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .HomePage div {
+      margin: 0 20px;
+    }
+    
+    .homeText{
+      border: 5px outset rgb(0, 0, 0);
+      background-color: rgb(255, 255, 255);    
+      text-align: center;
+      float: center;
+      width: 100%;
+      font-size: xx-large;
+      height: auto;
+    }
+    
+    .homeImage{
+      display: none;
+    }
+  }
