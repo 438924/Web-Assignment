@@ -1,4 +1,4 @@
-.HomePage{
+/* .HomePage{
     padding: 15px 100px;
     display: flex;
     justify-content: center;
@@ -6,7 +6,7 @@
   
   .HomePage div {
     margin: 0 20px;
-  }
+  } */
   
   .homeText{
     border: 5px outset rgb(0, 0, 0);
@@ -18,8 +18,40 @@
     height: auto;
   }
   
-  .homeImage{
+  /* .homeImage{
     float: right;
+  } */
+
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .grid-container{
+    box-sizing: border-box;
+    width: 100%;
+    height: 200vh;
+
+    display: grid;
+    /*
+    Distribute grid container's space across 1 columns and 6 rows in the ratios 1 and 1:1:9:6:6:1
+    */
+  }
+
+  .grid-container > header{
+    grid-column: 1 / 2;
+    grid-row: 1 / 1;
+  }
+
+  .grid-container > article{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+
+  .grid-container > aside{
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
   }
 
   @media(max-width: 600px){
