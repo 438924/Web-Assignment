@@ -18,9 +18,9 @@
     height: auto;
   }
   
-  /* .homeImage{
+  .homeImage{
     float: right;
-  } */
+  }
 
   body {
     margin: 0;
@@ -28,7 +28,7 @@
     box-sizing: border-box;
   }
 
-  .grid-container{
+  /* .grid-container{
     box-sizing: border-box;
     width: 100%;
     height: 200vh;
@@ -37,7 +37,7 @@
     /*
     Distribute grid container's space across 1 columns and 6 rows in the ratios 1 and 1:1:9:6:6:1
     */
-  }
+  /* }
 
   .grid-container > header{
     grid-column: 1 / 2;
@@ -52,7 +52,7 @@
   .grid-container > aside{
     grid-column: 1 / 2;
     grid-row: 5 / 6;
-  }
+  } */ 
 
   @media(max-width: 600px){
     .HomePage{

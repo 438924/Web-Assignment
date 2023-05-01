@@ -76,8 +76,6 @@ body{
       text-align: center;
   
       /* height: 5600px; */
-      height: var(--header-height);
-      position: relative;
   }
   /* The navbar container */
   .topnav {
