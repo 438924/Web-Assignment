@@ -79,3 +79,88 @@
   flex-wrap: wrap;
   justify-content: left;
 }
+
+@media (max-width:600px) {
+  .traineesLink {
+    overflow: hidden;
+    background-color: #333;
+    float: right;
+  }
+  
+  
+  .traineesLink a {
+    float: right;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: x-large;
+  }
+  
+  
+  .traineesLink a:hover {
+    background-color:rgb(151, 148, 148);
+    color: black;
+  }
+
+.charlie{
+  border: 5px outset rgb(0, 0, 0);
+  background-color: #333; 
+  color: white;
+  padding: 15px;
+  width: 15%;  
+}
+
+.kajus{
+  text-align: center;
+  border: 5px outset rgb(0, 0, 0);
+  background-color: #333; 
+    /* padding: 15px; */
+  color: white;
+  padding: 15px;
+  width: 15%;
+}
+
+@font-face {
+  font-family: 'kenyan_coffee';
+  src: url('../kenyan_coffee.otf') format("opentype");
+}
+
+.trainee {
+  display: flex;
+  width: 500px;
+  height: 100%;
+  padding: 25px;
+  border-radius: 40px;
+  margin: 0px 20px;
+  margin-bottom: 30px;
+  font-family: "kenyan_coffee";
+  flex-wrap: wrap;
+}
+
+.trainee div {
+  border: 5px outset rgb(0, 0, 0);
+  background-color: #333; 
+  color: white;
+  padding: 15px;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  margin-right: 30px;
+}
+
+.trainee img {
+  border-radius: 10px;
+  object-fit: cover;
+  width: 240px;
+  height: 350px;
+}
+
+.profiles {
+  margin: 0 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+}
